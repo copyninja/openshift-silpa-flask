@@ -4,3 +4,5 @@
 # before the deploy step.  This script gets executed directly, so it
 # could be python, php, ruby, etc.
 sed -i "s|log_folder = /tmp|log_folder = $OPENSHIFT_LOG_DIR|g" $OPENSHIFT_REPO_DIR/wsgi/silpa/silpa.conf
+# Create static page links to here
+ln -s $OPENSHIFT_REPO_DIR/wsgi/silpa/static/* $OPENSHIFT_REPO_DIR/wsgi/static
