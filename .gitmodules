@@ -1,0 +1,3 @@
+[submodule "wsgi/silpa"]
+	path = wsgi/silpa
+	url = git://github.com/copyninja/Silpa-Flask.git
