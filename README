@@ -4,6 +4,8 @@ SILPA-Flask on OpenShift
 This repository helps you deploy SILPA-Flask: SILPA project rewritten using Flask
 micro framework on OpenShift.
 
+# [SILPA-Flask](https://github.com/copyninja/Silpa-Flask)
+
 
 Running on OpenShift
 ----------------------------
