@@ -12,5 +12,7 @@ setup(name='YourAppName',
                         'hyphenation>=1.1',
                         'inexactsearch>=0.2',
                         'normalizer>=0.1',
-                        'soundex>=0.2',],
+                        'soundex>=0.2',
+                        'payyans>=0.1',
+                        'chardetails>=0.2.1'],
      )
