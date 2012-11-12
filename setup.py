@@ -14,5 +14,6 @@ setup(name='YourAppName',
                         'normalizer>=0.1',
                         'soundex>=0.2',
                         'payyans>=0.1',
-                        'chardetails>=0.2.1'],
+                        'chardetails>=0.2.1',
+			'guesslanguage>=0.1],
      )
