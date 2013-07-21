@@ -21,7 +21,7 @@ Add this upstream repo
     cd silpa
     git remote add upstream -m master git://github.com/copyninja/openshift-silpa-flask.git
     git pull -s recursive -X theirs upstream master
-    git submodules update --init
+    git submodule update --init
     
 Then push the repo upstream
 
