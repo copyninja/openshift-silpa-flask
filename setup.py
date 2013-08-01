@@ -15,6 +15,6 @@ setup(name='YourAppName',
 			'silpa_common >= 0.1.1',
                         'soundex >= 0.3.1',
                         'payyans >= 0.2',
-                        'chardetails >= 0.4.1',
+                        'chardetails >= 0.3',
 			'guesslanguage >= 0.1'],
      )
