@@ -3,7 +3,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(__file__) or '.')
-
+sys.path.append(os.path.join(os.path.dirname(__file__), 'silpa'))
 PY_DIR = os.path.join(os.environ['OPENSHIFT_HOMEDIR'], "python")
 
 virtenv = PY_DIR + '/virtenv/'
