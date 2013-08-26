@@ -19,7 +19,7 @@ Create a python-2.6 application
 Add this upstream repo
 
     cd silpa
-    git remote add upstream -m master git://github.com/copyninja/openshift-silpa-flask.git
+    git remote add upstream -m master git://github.com/diadara/openshift-silpa-flask.git
     git pull -s recursive -X theirs upstream master
     git submodule update --init
     
